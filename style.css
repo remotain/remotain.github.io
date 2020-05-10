@@ -104,13 +104,13 @@ filter: alpha(opacity=100);
 transform: translate3d(0,0,0);
 }
 
-.hovereffect a.info {
+/* .hovereffect a.info {
     padding: 7px 14px;
     border: 1px solid #fff;
-    margin: 50px 0 0 0;
+    margin: 25px 0 0 0;
   }
 
   .hovereffect a.info:hover {
     text-decoration: none;
     box-shadow: 0 0 5px #fff;
-  }
+  } */
