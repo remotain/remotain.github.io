@@ -6,9 +6,17 @@ html,body {
 .jumbotron {
     background: url('imgs/background.jpg');
     background-size: cover;
-    background-position: bottom;
+    /* background-position: bottom; */
     height: 100vh;
+    background-attachment: fixed;
 }
+
+ /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+ @media only screen and (max-device-width: 1366px) {
+    .jumbotron {
+      background-attachment: scroll;
+    }
+  } 
 
 .navbar-light {
     background-color : white;
