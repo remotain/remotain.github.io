@@ -4,7 +4,7 @@ html,body {
 
 .jumbotron {
     background: url('imgs/background.jpg');
-    height: 100%;
+    height: 100vh;
     background-attachment: fixed;
     /* background-position: center; */
     background-repeat: no-repeat;
