@@ -6,12 +6,8 @@ html,body {
     background: url('imgs/background.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     height:100vh;
-    height: -webkit-fill-available;
 }
 
  /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
