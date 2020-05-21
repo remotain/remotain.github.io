@@ -75,18 +75,23 @@
 
     </nav>
 
-    <div class="jumbotron" id='home'>
+    <div class="jumbotron" id="home">
         <div class="row align-items-center h-100">
             <div class="col-8 mx-auto text-center">
                 <h1 class="display-3 text-light">Alberto Remoto</h1>
                 <h3 class="text-light">Unravel complex problems into effective solutions</h3>
+                <div class="mt-5">
+                    <a class="text-light" href="#portfolio">
+                        <i class="fas fa-chevron-circle-down fa-6x"></i>
+                    </a>
+                </div>
             </div>    
         </div>
     </div>
 
     <div class="container-fluid min-vh-100" id="portfolio">
 
-        <h1 class="text-center display-4 p-4">Portfolio</h1>
+        <h1 class="text-center display-4">Portfolio</h1>
 
         <div class="row justify-content-center">
 
@@ -278,7 +283,8 @@
         </div>
 
     </div>
-    <div class="footer my-5">
+    <div class="footer bg-light p-2">
+        &copy; 2020 Alberto Remoto. All right reserved. Pictures are courtesy of <a class="text-body" href="https://unsplash.com/">Unplash</a>.
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -303,7 +309,7 @@ $(document).ready(function(){
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
-        scrollTop: $(hash).offset().top-80
+        scrollTop: $(hash).offset().top-55
       }, 800, function(){
 
         // Add hash (#) to URL when done scrolling (default click behavior)
